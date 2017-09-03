@@ -11,81 +11,40 @@
 
 /* Space out content a bit */
 body {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  background-color: #282828;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-right: 1rem;
-  padding-left: 1rem;
+.separator {
+  display: block;
+  width: 50px;
+  height: 1px;
+  margin: 3rem auto;
 }
 
-/* Custom page header */
-.header {
-  padding-bottom: 1rem;
-  border-bottom: .05rem solid #e5e5e5;
+.separator--white {
+  background-color: white;
 }
 
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 3rem;
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 1.5rem;
-  color: #777;
-  border-top: .05rem solid #e5e5e5;
-}
-
-/* Customize container */
-@media (min-width: 48em) {
-  .container {
-    max-width: 46rem;
-  }
-}
-.container-narrow > hr {
-  margin: 2rem 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
+section {
   text-align: center;
-  border-bottom: .05rem solid #e5e5e5;
-}
-.jumbotron .btn {
-  padding: .75rem 1.5rem;
-  font-size: 1.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 3rem 0;
-}
-.marketing p + h4 {
-  margin-top: 1.5rem;
-}
+.section-1 {
+  color: white;
+  text-align: center;
+  background-image: url('http://baumannzone.com/otros/plantilla-casablanca/images/425e636e.home.png');
+  background-size: cover;
+  background-position: center;
+  h1 {
+    text-transform: uppercase;
+  }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 48em) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
+  p {
+    margin-top: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 2rem;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+
 }
