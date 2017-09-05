@@ -1,5 +1,7 @@
-# SIBY Template
-SIBY - Free HTML Template
+# SIBY Template 
+SIBY - Free HTML Template (_WIP_)
+
+![localhost-900](./app/images/localhost-9000.png)
 
 ## Getting Started
 
