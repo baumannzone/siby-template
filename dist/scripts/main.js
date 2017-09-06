@@ -1,0 +1,1 @@
+"use strict";var App={init:function(){App.swiperCards()},swiperCards:function(){new Swiper(".section-7 .swiper-container",{pagination:".swiper-pagination",nextButton:".swiper-button-next",prevButton:".swiper-button-prev",paginationClickable:!0,spaceBetween:30,slidesPerView:2,loop:!0})}};App.init();
