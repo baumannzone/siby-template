@@ -1,10 +1,11 @@
 const App = {
   init() {
-    App.youtube();
+    console.log( 'Loading..' );
+    App.swiperCards();
   },
 
-  youtube: function () {
-    console.log( 'Cargando youtube' );
+  // Init swiper slider
+  swiperCards() {
     const mySwiper = new Swiper( '.section-7 .swiper-container', {
       // Optional parameters
       pagination: '.swiper-pagination',

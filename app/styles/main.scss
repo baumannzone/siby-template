@@ -229,3 +229,29 @@ p.description {
     }
   }
 }
+
+.section-8 {
+  // Youtube
+  background-color: #fafafa;
+  padding: 5rem 0;
+
+  #player {
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+  }
+}
+
+.section-9 {
+  background-color: white;
+
+  .how-cont {
+    .title {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #999;
+    }
+  }
+}
