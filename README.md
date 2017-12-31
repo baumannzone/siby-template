@@ -1,5 +1,5 @@
 # SIBY Template 
-SIBY - Free HTML Template (_WIP_)
+SIBY - Free Bootstrap 4 HTML Template (_WIP_)
 
 ![localhost-900](./app/images/localhost-9000.png)
 
